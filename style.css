@@ -1,14 +1,75 @@
-.first-section{
-height: 400px;
-width: 80%;
-display: inline-block;
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    padding-left: 2%;
+   
 }
 .first-passage{
-
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.first-passage img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orange;
 }
 .button{
-
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    padding: 5px 40px;
+    border-radius: 10px;
 }
-.first-image{
-
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second-passage{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    padding-right: 2%;
+    margin-top: 10px;
+}
+.last-passage{
+    width: 80%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.last-passage2{
+    width: 80%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.box{
+   display: flex;
+   margin-bottom: 200px;
+}
+footer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.experienced-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
